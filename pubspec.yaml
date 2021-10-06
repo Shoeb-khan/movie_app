@@ -1,0 +1,46 @@
+name: untitled3
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  cached_network_image: ^3.1.0
+  flutter_svg: ^0.22.0
+  get: 4.3.8
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/vector27.svg
+    - assets/vector27.png
+    - assets/vector.svg
+    - assets/vector.png
+    - assets/star1.png
+    - assets/star1.svg
+    - assets/path-1.svg
+    - assets/path.svg
+    - assets/path.png
+    - assets/group358.svg
+    - assets/group358.png
+    - assets/group357.svg
+    - assets/group356.svg
+    - assets/group356.png
+    - assets/group220.svg
+    - assets/bgbloop.svg
+    - assets/eva_arrow-ios-back-fill.png
+    - assets/eva_arrow-ios-back-fill.svg
+    - assets/frame.png
+    - assets/frame.svg
+    - assets/group220.png
+    - assets/bgbloop.png
+
