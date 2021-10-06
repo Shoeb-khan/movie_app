@@ -24,7 +24,6 @@ class HomeView extends GetView<HomeController> {
               Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: TextField(
-
                   onChanged: (value){
                     controller.searchtext.value = value;
                   },
@@ -85,11 +84,20 @@ class HomeView extends GetView<HomeController> {
                                           '${controller.movie[index].poster}'),
                                     ),
                                   ),
-                                  Positioned(child: Container(
+                                  Positioned(top: 10, left: 20,
+                                      child: Container(
+                                    height:20,
+                                    width: 80,
                                     decoration: BoxDecoration(
                                         borderRadius: BorderRadius.circular(20.00),
-                                        color: Colors.transparent
+                                        color: Colors.grey[100]
                                     ),
+                                        child: Row(
+                                          children: [
+                                            SvgPicture.asset('assets/star1.svg',color: Colors.white,),
+                                            Text('8.4/10')
+                                          ],
+                                        ),
                                   ))
                                 ],
                               ),
